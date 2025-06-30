@@ -16,7 +16,7 @@ A low-cost, portable, wireless system that monitors human respiration rate using
 
 ## 📂 Project Structure
 - `/hardware/` – Schematics and PCB files
-- `/firmware/` – Embedded C code for ESP32
+- `/firmware/` – Embedded C / C++ code for ESP32
 - `/mobile-app/` – Optional dashboard (e.g., Flutter)
 - `/data/` – Sample logs and signal traces
 
