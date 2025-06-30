@@ -10,6 +10,8 @@ A low-cost, portable, wireless system that monitors human respiration rate using
 - Accurate breath detection via signal filtering
 
 ## 📷 Preview
+![Image](https://github.com/user-attachments/assets/d3b25800-6135-4e41-9dce-b803e27c961f)
+
 
 
 ## 📂 Project Structure
