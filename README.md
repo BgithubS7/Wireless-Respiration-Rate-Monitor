@@ -10,7 +10,7 @@ A low-cost, portable, wireless system that monitors human respiration rate using
 - Accurate breath detection via signal filtering
 
 ## 📷 Preview
-file:///C:/Users/sonab/Downloads/High_Level__Design.pdf
+
 
 ## 📂 Project Structure
 - `/hardware/` – Schematics and PCB files
