@@ -1,0 +1,30 @@
+High-Level Design Concept:
+The design emphasizes modular documentation for each functional block of the wearable system:
+ 1. Sensing 
+2. Microcontroller unit (MCU) 
+3. Connectivity 
+4. Power 
+
+Each subsystem has its own schematic file, but they all interface through the central power circuit, ensuring reliable operation and integration. 
+Block-by-Block Explanation 
+1. Wearable Sensing Circuit SCH DOC 
+Purpose: Captures the respiration signal (likely from a stretch sensor, thermistor, or piezo).
+Contents: Analog frontend (e.g., amplifier, filter) Signal conditioning circuits
+Feeds Into: The MCU block — it digitizes or processes the signal. 
+
+2. Wearable Sensing MCU Schematic DOC 
+Purpose: Acts as the brain of the system. 
+Contents: Microcontroller (e.g., ESP32, nRF52) ADC for sensor signal digitization, Firmware interface to control sensing and communication 
+Links To: Sensing Circuit (input) Connectivity Module (output) Power Circuit (for supply) 
+
+3. Wearable Connectivity (BLE or Wi-Fi) SCH DOC 
+Purpose: Enables wireless data transmission of respiration data to external devices (e.g., phone, cloud).
+Contents: BLE or Wi-Fi chip/module Matching network (for RF) Antenna interface 
+Feeds Into: External app or database Powered by: Central power schematic 
+
+
+4. Wearable Power Circuit Schematic Doc
+Purpose: Central power hub of the system.
+Contents: Battery interface (LiPo, coin cell, etc.) Voltage regulation (LDOs, buck converters), Charging circuits (if rechargeable)
+Feeds Power To: All other modules 
+Dependency: Must be sized and regulated based on requirements of sensing, MCU, and connectivity blocks
