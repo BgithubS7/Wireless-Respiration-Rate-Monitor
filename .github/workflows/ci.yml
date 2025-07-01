@@ -10,8 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Run a dummy check
-        run: echo "✅ CI passed!"
+      - name: Dummy check
+        run: echo "✅ CI passed"
