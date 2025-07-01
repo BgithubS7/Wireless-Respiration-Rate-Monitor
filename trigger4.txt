@@ -1,0 +1,1 @@
+echo "trigger4" >> trigger.txt
