@@ -1,17 +1,11 @@
-name: Basic CI  # ✅ This is the name that must appear as the status check!
+name: build   
 
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+on: [push, pull_request]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Run a dummy check
-        run: echo "✅ CI passed!"
+      - uses: actions/checkout@v2
+      - name: Dummy Build Step
+        run: echo "Build passed!"
