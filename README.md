@@ -27,7 +27,7 @@ A low-cost, portable, wireless system that monitors human respiration rate using
 - MATLAB or Python for signal processing (optional)
 
 ## 📄 License
-MIT License – free to use and modify.
+MIT License 
 
 ## 🙋‍♂️ Author
 Bright Sona (https://github.com/BgithubS7)
