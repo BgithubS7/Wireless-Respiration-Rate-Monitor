@@ -9,7 +9,12 @@ A low-cost, portable, wireless system that monitors human respiration rate using
 - Battery-powered and wearable
 - Accurate breath detection via signal filtering
 
-## 📷 Preview![Image](https://github.com/user-attachments/assets/d7657137-93c0-469c-b91c-77b22a66a880)
+## 📷 Preview!
+- This figure below shows the entire design flow chart and my thought process of what I would like the device to look like and do.
+- In the HIGH LEVEL DESIGN: https://github.com/BgithubS7/Wireless-Respiration-Rate-Monitor/blob/main/High%20Level%20Design
+- I have clearly explained the function of each block, why I decided to choose such component given the contraints that I have to work with. 
+
+![Image](https://github.com/user-attachments/assets/9e403b4c-355f-491b-a136-9fbd4f3e57dd)
 
 
 
