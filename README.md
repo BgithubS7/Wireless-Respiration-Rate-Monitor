@@ -33,7 +33,7 @@ For explanation, please visit the schematic document at: https://github.com/Bgit
   #### 🔌 Sensor Schematic:
   ![Image](https://github.com/user-attachments/assets/de3a001b-33fb-4d36-aaef-08a6199daafd)
 
-  
+  ---
   
   #### 🎯 Connectivity Schematic
   
@@ -59,7 +59,7 @@ The architecture reflects a careful balance of:
 - For furtehr explanation visit: https://github.com/BgithubS7/Wireless-Respiration-Rate-Monitor/edit/main/SCHEMATIC%20DOCUMENT
   
 - `/firmware/` – Embedded C / C++ code for ESP32
-- `/mobile-app/` – Optional dashboard (e.g., Flutter)
+- `/mobile-app/` – Optional dashboard (e.g., Flutter)-python GUI
 - `/data/` – Sample logs and signal traces
 
 ## ⚙️ Tech Stack
