@@ -21,8 +21,8 @@ A low-cost, very portable, wireless system that monitors human respiration rate 
 
 ## 📂 Project Structure
 - `/hardware/` – Schematics and PCB files
-- Add description and Photo
-
+- 
+After coming up with the high level architecture for the design, I went on to drawing the schematic and looking for each component that is most compatible with my desing, especially since I consider power and sensitivity to be of great factor in the sleep mode and regular mode and when getting the respiration reading. 
 - 
 - `/firmware/` – Embedded C / C++ code for ESP32
 - `/mobile-app/` – Optional dashboard (e.g., Flutter)
