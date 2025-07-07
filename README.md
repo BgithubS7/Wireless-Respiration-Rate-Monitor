@@ -9,6 +9,7 @@ A low-cost, very portable, wireless system that monitors human respiration rate 
 - Battery-powered and wearable
 - Accurate breath detection via signal filtering
 - Analog and digital circuit
+- C++ and python
 - rf
 
 ## 📷 Preview!
