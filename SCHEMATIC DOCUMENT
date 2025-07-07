@@ -1,6 +1,24 @@
-SENSOR SCHEMATIC DOCUMENT
-Add the description for the board design and choice of protocol used for the sensor and why you decided to choose that for the design
-The logical power supply voltage I am using is about 1.8V. This is based on the data sheet specification and since I consider power to be of a great deal 
-I decided to use LED supply voltage of about 5V.In the schematic design, two I2C external lines are used for pull up. 
-DC -DC converters are used as well. Due to the amount of current I wish to draw from the circuitk, I have added two load switches to help me achieve that. For a detail observation of the design,
-visit: https://github.com/BgithubS7/Wireless-Respiration-Rate-Monitor/edit/main/README.md
+SENSOR SCHEMATIC DOCUMENT:
+VOLTAGE DOMAIN:
+Voltage Domains & Justification
+Logic Power Supply (1.8V):
+The core logic level for all digital components is maintained at 1.8V, as specified in the datasheets of the key ICs (e.g., microcontroller, IMU sensor).
+
+This low-voltage domain was chosen for power efficiency, reduced switching noise, and to meet the I/O level requirements of connected digital peripherals.
+
+LED Power Supply (5V):
+To ensure proper brightness and current handling, the LEDs in the system are driven by a dedicated 5V supply rail.
+
+This isolates high-current LED loads from sensitive logic circuits.
+
+It also avoids undervoltage conditions that might result from driving LEDs at sub-optimal voltages.
+
+🔌 I²C Pull-up Strategy
+The design includes two I²C external lines, each equipped with pull-up resistors tied to the 1.8V logic rail.
+
+This ensures proper line idle-state detection, signal integrity, and compatibility with 1.8V logic-level I²C devices.
+
+Careful selection of pull-up resistor values balances rise time and bus capacitance to maintain signal timing and avoid I²C violations.
+
+
+visit: https://github.com/BgithubS7/Wireless-Respiration-Rate-
