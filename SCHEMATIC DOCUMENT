@@ -25,5 +25,13 @@ High-efficiency DC-DC converters are used to generate and regulate both 1.8V and
 
 These converters were selected to optimize thermal performance, load regulation, and power conversion efficiency, especially under dynamic loads.
 
+🔀 Load Switch Integration
+The design includes two power load switches on key branches of the 5V and/or 1.8V power rails.
+
+This allows for selective power distribution, enabling or disabling sections of the circuit (e.g., sensors, LEDs, comm modules) under firmware control.
+
+Load switches were sized to handle the expected current draw and ensure low R<sub>DS(ON)</sub> for minimal voltage drop.
+
+Inrush current control and soft-start functionality are optionally supported to prevent brownouts.
 Ripple performance and transient response were evaluated to prevent noise coupling into sensitive analog and digital blocks.
 visit: https://github.com/BgithubS7/Wireless-Respiration-Rate-
