@@ -15,6 +15,8 @@ A low-cost, very portable, wireless system that monitors human respiration rate 
 - I have clearly explained the function of each block, why I decided to choose such component given the contraints that I have to work with. 
 
 ![Image](https://github.com/user-attachments/assets/9e403b4c-355f-491b-a136-9fbd4f3e57dd)
+For explanation, please visit the schematic document at: https://github.com/BgithubS7/Wireless-Respiration-Rate-Monitor/blob/main/SCHEMATIC%20DOCUMENT
+
 
 
 
