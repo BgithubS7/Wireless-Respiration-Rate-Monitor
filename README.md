@@ -29,9 +29,31 @@ For explanation, please visit the schematic document at: https://github.com/Bgit
   ### 📷 Schematics
   #### 🔌 Sensor Schematic:
   ![Image](https://github.com/user-attachments/assets/de3a001b-33fb-4d36-aaef-08a6199daafd)
+
+  
   
   #### 🎯 Connectivity Schematic
+  
+![Image](https://github.com/user-attachments/assets/a6e00782-9c33-4600-a9ff-f67ca3c78cee)
 
+
+### Design Philosophy
+
+The architecture reflects a careful balance of:
+
+- **Power Efficiency**  
+  Optimized voltage regulation using DC-DC converters and low-voltage logic levels to minimize power consumption and heat generation.
+
+- **Signal Integrity**  
+  Proper I²C pull-up configuration, separation of power domains, and noise-aware routing practices ensure reliable high-speed communication.
+
+- **Component Protection**  
+  Load switches isolate sensitive circuitry and prevent unintended current surges, while power rails are regulated within tight tolerances.
+
+- **System-Level Control**  
+  Firmware-controlled power gating via load switches allows dynamic control of subsystem power, enabling smarter power budgeting and modularity.
+
+- For furtehr explanation visit: https://github.com/BgithubS7/Wireless-Respiration-Rate-Monitor/edit/main/SCHEMATIC%20DOCUMENT
   
 - `/firmware/` – Embedded C / C++ code for ESP32
 - `/mobile-app/` – Optional dashboard (e.g., Flutter)
