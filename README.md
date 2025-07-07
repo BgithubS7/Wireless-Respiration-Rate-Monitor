@@ -20,9 +20,15 @@ A low-cost, very portable, wireless system that monitors human respiration rate 
 
 
 ## 📂 Project Structure
-#  `/hardware/` – Schematics and PCB files
-- After coming up with the high level architecture for the design, I went on to drawing the schematic and looking for each component that is most compatible with my desing, especially since I consider power and sensitivity to be of great factor in the sleep mode and regular mode and when getting the respiration reading. 
-- 
+#  `/Hardware Design/` – Schematics and PCB files
+- After coming up with the high level architecture for the design, I went on to drawing the schematic and looking for each component that is most compatible with my desing, especially since I consider power and sensitivity to be of great factor in the sleep mode and regular mode and when getting the respiration reading.
+- The `/Schematic/` folder contains all Altium design files, schematics, and layout resources for the project.
+
+  ### 📷 Schematics
+  #### 🔌 Connectivity Schematic:
+  ![Image](https://github.com/user-attachments/assets/de3a001b-33fb-4d36-aaef-08a6199daafd)
+  
+  
 - `/firmware/` – Embedded C / C++ code for ESP32
 - `/mobile-app/` – Optional dashboard (e.g., Flutter)
 - `/data/` – Sample logs and signal traces
