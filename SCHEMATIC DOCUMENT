@@ -20,5 +20,10 @@ This ensures proper line idle-state detection, signal integrity, and compatibili
 
 Careful selection of pull-up resistor values balances rise time and bus capacitance to maintain signal timing and avoid I²C violations.
 
+DC-DC Converters for Efficient Regulation
+High-efficiency DC-DC converters are used to generate and regulate both 1.8V and 5V power rails from a primary input source (e.g., 3.7V Li-ion or 12V adapter).
 
+These converters were selected to optimize thermal performance, load regulation, and power conversion efficiency, especially under dynamic loads.
+
+Ripple performance and transient response were evaluated to prevent noise coupling into sensitive analog and digital blocks.
 visit: https://github.com/BgithubS7/Wireless-Respiration-Rate-
