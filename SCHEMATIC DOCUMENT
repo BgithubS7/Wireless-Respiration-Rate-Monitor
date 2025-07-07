@@ -1,2 +1,6 @@
-SENSOR BOARD SCHEMATIC DOCUMENT
+SENSOR SCHEMATIC DOCUMENT
 Add the description for the board design and choice of protocol used for the sensor and why you decided to choose that for the design
+The logical power supply voltage I am using is about 1.8V. This is based on the data sheet specification and since I consider power to be of a great deal 
+I decided to use LED supply voltage of about 5V.In the schematic design, two I2C external lines are used for pull up. 
+DC -DC converters are used as well. Due to the amount of current I wish to draw from the circuitk, I have added two load switches to help me achieve that. For a detail observation of the design,
+visit: https://github.com/BgithubS7/Wireless-Respiration-Rate-Monitor/edit/main/README.md
