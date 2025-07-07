@@ -1,33 +1,47 @@
-High-Level Design Concept:
-![Image](https://github.com/user-attachments/assets/d7657137-93c0-469c-b91c-77b22a66a880)
-# Reference: View the block diagram here: https://github.com/BgithubS7/Wireless-Respiration-Rate-Monitor/blob/main/README.md
+## High-Level Design Concept
 
-The design emphasizes modular documentation for each functional block of the wearable system:
- 1. Sensing 
-2. Microcontroller unit (MCU) 
-3. Connectivity 
-4. Power 
+![High-Level Block Diagram](https://github.com/user-attachments/assets/d7657137-93c0-469c-b91c-77b22a66a880)
 
-Each subsystem has its own schematic file, but they all interface through the central power circuit, ensuring reliable operation and integration. 
-Block-by-Block Explanation 
-1. Wearable Sensing Circuit SCH DOC 
-Purpose: Captures the respiration signal (likely from a stretch sensor, thermistor, or piezo).
-Contents: Analog frontend (e.g., amplifier, filter) Signal conditioning circuits
-Feeds Into: The MCU block — it digitizes or processes the signal. 
+🔗 **Reference**: [View the full block diagram here](https://github.com/BgithubS7/Wireless-Respiration-Rate-Monitor/blob/main/README.md)
 
-2. Wearable Sensing MCU Schematic DOC 
-Purpose: Acts as the brain of the system. 
-Contents: Microcontroller (e.g., ESP32, nRF52) ADC for sensor signal digitization, Firmware interface to control sensing and communication 
-Links To: Sensing Circuit (input) Connectivity Module (output) Power Circuit (for supply) 
+The design emphasizes **modular documentation** for each functional block of the wearable system:
+1. **Sensing**
+2. **Microcontroller Unit (MCU)**
+3. **Connectivity**
+4. **Power**
 
-3. Wearable Connectivity (BLE or Wi-Fi) SCH DOC 
-Purpose: Enables wireless data transmission of respiration data to external devices (e.g., phone, cloud).
-Contents: BLE or Wi-Fi chip/module Matching network (for RF) Antenna interface 
-Feeds Into: External app or database Powered by: Central power schematic 
+Each subsystem has its own schematic file but interfaces through a **central power circuit**, ensuring reliable operation and seamless integration.
 
+---
 
-4. Wearable Power Circuit Schematic Doc
-Purpose: Central power hub of the system.
-Contents: Battery interface (LiPo, coin cell, etc.) Voltage regulation (LDOs, buck converters), Charging circuits (if rechargeable)
-Feeds Power To: All other modules 
-Dependency: Must be sized and regulated based on requirements of sensing, MCU, and connectivity blocks
+### 📘 Block-by-Block Explanation
+
+#### 1. Wearable Sensing Circuit (SCH DOC)
+- **Purpose**: Captures the respiration signal (e.g., stretch sensor, thermistor, or piezo element).
+- **Contents**: Analog frontend including amplifier and filter stages, signal conditioning circuits.
+- **Feeds Into**: The MCU block, which digitizes or processes the signal.
+
+#### 2. Wearable MCU Schematic (DOC)
+- **Purpose**: Acts as the processing and control core of the system.
+- **Contents**: Microcontroller (e.g., ESP32, nRF52), ADC for signal digitization, firmware control logic.
+- **Links To**:
+  - Sensing Circuit (input)
+  - Connectivity Module (output)
+  - Power Circuit (supply)
+
+#### 3. Wearable Connectivity Module (BLE/Wi-Fi) (SCH DOC)
+- **Purpose**: Enables wireless transmission of respiration data to external devices (e.g., smartphone or cloud).
+- **Contents**: BLE/Wi-Fi chip or module, RF matching network, antenna interface.
+- **Feeds Into**: External application or cloud service.
+- **Powered By**: Central power circuit.
+
+#### 4. Wearable Power Circuit (SCH DOC)
+- **Purpose**: Centralized power supply for all modules.
+- **Contents**: Battery interface (LiPo, coin cell), voltage regulators (LDOs or buck converters), optional charging circuit.
+- **Feeds Power To**: Sensing, MCU, and Connectivity blocks.
+- **Design Consideration**: Sized and regulated based on total system power requirements.
+
+---
+
+Let me know if you'd like a collapsible version of each block or if you’d like to embed live previews of schematics or KiCad/Altium project files.
+
