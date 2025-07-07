@@ -27,9 +27,11 @@ For explanation, please visit the schematic document at: https://github.com/Bgit
 - The `/Schematic/` folder contains all Altium design files, schematics, and layout resources for the project.
 
   ### 📷 Schematics
-  #### 🔌 Connectivity Schematic:
+  #### 🔌 Sensor Schematic:
   ![Image](https://github.com/user-attachments/assets/de3a001b-33fb-4d36-aaef-08a6199daafd)
   
+  #### 🎯 Connectivity Schematic
+
   
 - `/firmware/` – Embedded C / C++ code for ESP32
 - `/mobile-app/` – Optional dashboard (e.g., Flutter)
