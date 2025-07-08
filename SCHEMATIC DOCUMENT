@@ -35,3 +35,28 @@ Load switches were sized to handle the expected current draw and ensure low R<su
 Inrush current control and soft-start functionality are optionally supported to prevent brownouts.
 Ripple performance and transient response were evaluated to prevent noise coupling into sensitive analog and digital blocks.
 visit: https://github.com/BgithubS7/Wireless-Respiration-Rate-
+
+MCU + CONNECTIVITY DOCUMENT:
+Visit: https://github.com/BgithubS7/Wireless-Respiration-Rate-Monitor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POWER + CHARGING SCHEMATIC DOCUMENT
+visit: https://github.com/BgithubS7/Wireless-Respiration-Rate-Monitor
+
