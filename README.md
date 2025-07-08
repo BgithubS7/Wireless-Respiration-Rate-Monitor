@@ -57,7 +57,7 @@ The architecture reflects a careful balance of:
   Firmware-controlled power gating via load switches allows dynamic control of subsystem power, enabling smarter power budgeting and modularity.
 
 - For furtehr explanation visit: https://github.com/BgithubS7/Wireless-Respiration-Rate-Monitor/edit/main/SCHEMATIC%20DOCUMENT
-  
+  TO DO: DO NOT FORGET TO UPDATE THE SCHEMATIC DOCUMENTS FOR FOR POWER AND CHARGING CIRCUIT
 - `/firmware/` – Embedded C / C++ code for ESP32
 - `/mobile-app/` – Optional dashboard (e.g., Flutter)-python GUI
 - `/data/` – Sample logs and signal traces
