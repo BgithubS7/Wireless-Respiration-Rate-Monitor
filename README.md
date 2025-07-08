@@ -4,7 +4,7 @@ A low-cost, very portable, wireless system that monitors human respiration rate 
 
 ## 🛠️ Features
 - Sensor for the heart rate movements 
-- ESP32 for Bluetooth and processing
+- ESP32 for Bluetooth (BLE) and processing
 - Real-time plotting on phone or PC
 - Battery-powered and wearable
 - Accurate breath detection via signal filtering
