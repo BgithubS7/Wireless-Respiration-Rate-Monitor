@@ -31,13 +31,21 @@ For explanation, please visit the schematic document at: https://github.com/Bgit
 
   ### 📷 Schematics
   #### 🔌 Sensor Schematic:
- <img width="1407" height="913" alt="Image" src="https://github.com/user-attachments/assets/b9aea303-544b-4ef8-9a98-f18e20065705" />
+   <img width="1407" height="913" alt="Image" src="https://github.com/user-attachments/assets/b9aea303-544b-4ef8-9a98-f18e20065705" />
   ---
 
   
   #### 🎯 Connectivity Schematic
   
-<img width="1073" height="849" alt="Image" src="https://github.com/user-attachments/assets/b52a2f59-3c56-46c3-9b16-81728388dca5" />
+  <img width="1073" height="849" alt="Image" src="https://github.com/user-attachments/assets/b52a2f59-3c56-46c3-9b16-81728388dca5" />
+
+
+
+
+  #### 🎯 Power and charging Schematic
+
+  <img width="981" height="774" alt="Image" src="https://github.com/user-attachments/assets/30159458-9dbf-4222-9e59-327192961f3c" />
+
 
 
 ### Design Philosophy
