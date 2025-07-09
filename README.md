@@ -48,9 +48,9 @@ For explanation, please visit the schematic document at: https://github.com/Bgit
 
 
 
-### Design Philosophy
+  ### Design Philosophy
 
-The architecture reflects a careful balance of:
+  The architecture reflects a careful balance of:
 
 - **Power Efficiency**  
   Optimized voltage regulation using DC-DC converters and low-voltage logic levels to minimize power consumption and heat generation.
