@@ -1,2 +1,14 @@
 PCB LAYOUT FILE ARRANGEMENT
-The PCB project is organized into a modular schematic and layout structure, with individual schematic documents (.SchDoc) and PCB layouts (.PcbDoc) corresponding to each functional block of the wearable system. This separation supports streamlined design, debugging, and potential future upgrades.
+The PCB project is organized into a modular schematic and layout structure, with individual schematic documents (.SchDoc) and PCB layouts (.PcbDoc) corresponding to each functional block of the wearable system.
+This separation supports streamlined design, debugging, and potential future upgrades.
+Also, The Wearable_Respiration_Monitor project is organized into modular folders that separate design files based on their function. The Libraries folder contains all custom Altium component libraries, including parts for the microcontroller, passive components, sensors (like thermistors or stretch elements), and power-related components such as regulators and batteries.
+
+The Schematics folder includes individual schematic documents for each functional block of the system: the analog sensing frontend, the microcontroller core, the BLE/Wi-Fi communication module, and the power management circuit. Each schematic is structured to support modular development and ease of debugging.
+
+The PCB_Layouts folder contains the complete board layout, where all functional blocks are integrated into a single design. The layout ensures proper component placement, signal integrity, and RF isolation for wireless functionality.
+
+The Outputs folder houses all manufacturing and documentation files such as the Bill of Materials (BOM), Gerber files for PCB fabrication, and PDF printouts of schematics and layout views.
+
+The root directory also includes the Project.PrjPcb file, which links all the schematic and layout documents together in Altium Designer.
+
+This layout ensures clear file separation, supports collaborative development, and enables easy transfer to manufacturing or future design iterations.
