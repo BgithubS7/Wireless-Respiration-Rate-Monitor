@@ -1,1 +1,2 @@
-PCB LAYOUT
+PCB LAYOUT FILE ARRANGEMENT
+The PCB project is organized into a modular schematic and layout structure, with individual schematic documents (.SchDoc) and PCB layouts (.PcbDoc) corresponding to each functional block of the wearable system. This separation supports streamlined design, debugging, and potential future upgrades.
