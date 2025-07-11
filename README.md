@@ -66,11 +66,17 @@ For explanation, please visit the schematic document at: https://github.com/Bgit
 
 - For furtehr explanation visit: https://github.com/BgithubS7/Wireless-Respiration-Rate-Monitor/edit/main/SCHEMATIC%20DOCUMENT
 
-   ### 📷 PCB LIBRARYA AND LAYOUT STRUCTURE
-pre lang="markdown"><code> ```plaintext /Wearable_Respiration_Monitor/ │ ├── 📚 Libraries/ │ ├── Components.IntLib # MCU, passives, BLE module │ ├── Sensors.IntLib # Thermistor, stretch, or piezo sensors │ └── Power.IntLib # Battery, LDOs, connectors │ ├── 📘 Schematics/ │ ├── Sensing_Circuit.SchDoc # Analog frontend: amplifier, filter │ ├── MCU_Block.SchDoc # ESP32/nRF52, ADC, firmware logic │ ├── Connectivity_Module.SchDoc # BLE or Wi-Fi module, RF network │ └── Power_Circuit.SchDoc # Battery, regulator, charging │ ├── 🧩 PCB_Layouts/ │ └── Wearable_MainBoard.PcbDoc # Combined physical layout │ ├── 🗂️ Outputs/ │ ├── BOM/ │ ├── Gerbers/ │ └── PDFs/ │ └── 📁 Project.PrjPcb # Altium Designer project file ``` </code></pre>
+   ### 📷 PCB LIBRARY AND LAYOUT
+    ### 📁 Project Directory Structure
+
+- `/Libraries/` – Custom component libraries for MCU, sensors, and power
+- `/Schematics/` – Functional schematics (sensing, MCU, connectivity, power)
+- `/PCB_Layouts/` – Complete board layout integrating all system blocks
+- `/Outputs/` – Manufacturing and documentation files (BOM, Gerbers, PDFs)
+- `/Project.PrjPcb` – Main Altium Designer project file
 
 
-  
+
 - `/firmware/` – Embedded C / C++ code for ESP32
 - `/mobile-app/` – Optional dashboard (e.g., Flutter)-python GUI
 - `/data/` – Sample logs and signal traces
