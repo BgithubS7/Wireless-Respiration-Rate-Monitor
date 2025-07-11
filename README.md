@@ -1,6 +1,6 @@
 # Wireless Respiration Rate Monitor
 
-A low-cost, very portable, wireless system that monitors human respiration rate using a chest-mounted sensor and transmits data via Bluetooth to a mobile or PC dashboard.
+A low-cost, very portable, wireless system that monitors human respiration rate using a wrist-mounted sensor and transmits data via Bluetooth to a mobile or PC dashboard.
 
 ## 🛠️ Features
 - Sensor for the heart rate movements 
