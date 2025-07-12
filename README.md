@@ -78,6 +78,7 @@ For explanation, please visit the schematic document at: https://github.com/Bgit
 
 //THIS IS TO BE DONE
 // CREATE THE FILE STRUCTURE WITHIN THE MAIN BRANCHE
+//WORK ON THE MARKDONWN COURSE AND WATCH THE VIDEO
 - `/firmware/` – Embedded C / C++ code for ESP32
 - `/mobile-app/` – Optional dashboard (e.g., Flutter)-python GUI
 - `/data/` – Sample logs and signal traces
