@@ -76,7 +76,8 @@ For explanation, please visit the schematic document at: https://github.com/Bgit
 - `/Project.PrjPcb` – Main Altium Designer project file
 
 
-
+//THIS IS TO BE DONE
+// CREATE THE FILE STRUCTURE WITHIN THE MAIN BRANCHE
 - `/firmware/` – Embedded C / C++ code for ESP32
 - `/mobile-app/` – Optional dashboard (e.g., Flutter)-python GUI
 - `/data/` – Sample logs and signal traces
